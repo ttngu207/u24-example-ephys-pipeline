@@ -1,5 +1,5 @@
 import numpy as np
-from my_project import ephys
+from my_project.init_ephys import ephys
 
 populate_settings = {'reserve_jobs': True, 'suppress_errors': True, 'display_progress': True}
 

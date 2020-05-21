@@ -4,8 +4,8 @@ import uuid
 from ephys_loaders import neuropixels
 from djephys.utils import dict_to_hash
 
-from my_project import lab, subject, ephys
-from my_project import Session
+from my_project.init_ephys import lab, subject, ephys
+from my_project.init_ephys import Session
 from my_project.utils import get_ephys_root_data_dir, get_ks_data_dir, extract_clustering_info
 
 # ========== Insert new "Subject" ===========
